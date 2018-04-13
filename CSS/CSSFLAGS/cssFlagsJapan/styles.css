@@ -1,0 +1,25 @@
+
+
+.caption {
+     position:relative;
+     font-family:"Japanese Brush Master", cursive;
+}
+
+     .parent {
+         position:static; 
+         width:610px;
+         height:378px;
+         border-style:dotted;
+         background-color:white;
+}
+         .child {
+             position:relative;
+             width:234px;
+             height:234px;
+             border-radius:117px;
+             background-color:red;
+             top:72px;
+             left:189px;        
+}
+
+    

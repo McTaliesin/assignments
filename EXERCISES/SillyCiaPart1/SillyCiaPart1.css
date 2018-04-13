@@ -1,0 +1,50 @@
+
+
+p.a {
+    color:green;
+    font-family: georgia;
+    font-size: 44px;
+    text-align: center;
+}
+
+p.b { 
+    text-align: center;
+    font-size: 36px;
+}
+
+c.floating-block {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+}
+  
+p.q {
+    display: inline-block;
+    float:right;
+    line-height:25px;
+}
+    .label {
+            text-transform: uppercase;
+  
+}
+    .img {
+        float: left;
+        display: inline-block;
+        border: 10px;
+        padding: 20px;
+    
+}
+
+    .h4 {
+        float: right; 
+        display: inline-block;
+        margin: 15px;
+}
+
+a:link {
+    text-decoration: none;    
+}   
+a:hover {
+    text-decoration: underline;
+}

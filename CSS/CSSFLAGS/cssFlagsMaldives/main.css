@@ -1,0 +1,40 @@
+
+
+.parent {
+    position:static; 
+    width:600px;
+    height:400px;
+    background-color:red;
+}
+    .child {
+        position:relative;
+        width:400px;
+        height:200px;
+        background-color:green;
+        top:100px;
+        left:100px;
+}
+        .grandchild {
+            position:relative;
+            height:160px;
+            width:160px;
+            border-radius:80px;
+            background-color:white;
+            bottom:80px;
+            left:245px;
+}
+            .greatgrandchild {
+                position:relative;
+                height:160px;
+                width:160px;
+                border-radius:80px;
+                background-color:green;
+                bottom:240px;
+                left:270px;
+}
+.caption {
+    font-family:Kumar One,cursive;
+    
+    
+}
+                

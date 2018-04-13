@@ -1,0 +1,26 @@
+{
+  "name": "assignments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McTaliesin/assignments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McTaliesin/assignments/issues"
+  },
+  "homepage": "https://github.com/McTaliesin/assignments#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

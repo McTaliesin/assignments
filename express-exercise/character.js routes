@@ -1,0 +1,36 @@
+const express = require("express");
+const characterRoutes = express.Router();
+const Character = require("../models/character");
+
+characterRoutes.get("/", (req, res) => {
+    Character.find({isGoodGuy: true}, (err, characters) => {
+        if (err) return res.status(500).send(err);
+        return res.send(characters);
+    });
+})
+characterRoutes.get("/", (req, res) => {
+    Character.findOne({_id: req.params.id}, err, character) => {
+        if (err) return res.status(500).send(err);
+        return res.send(character);
+    });
+})
+characterRoutes.post("/:id", (req, res) => {
+    const newCharacter = new Character(req.body);
+    newCharacter.save(err => {
+        if (err) return res.status(500).send(err);
+        return res.status(201).send(newCharacter);
+    });
+});
+characterRoutes.put("/", (req, res) => {
+    Character.findByIdAndUpdate(req.params.id, req.body)
+})
+characterRoutes("/:id", (req, res) => {
+    Character.findByIdAndRemove(req.params.id, (err, removedCharacter) => {
+        if (err) re
+    })
+})
+characterRoutes("/", (req, res) => {
+
+})
+
+module.export = characterRoutes;

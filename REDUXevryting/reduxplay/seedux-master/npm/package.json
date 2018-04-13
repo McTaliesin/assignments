@@ -1,0 +1,31 @@
+{
+ "authors": [
+    "Michael Lampe <mlampesd@gmail.com> (https://github.com/mlampedx)",
+    "Stephenie Reimer (https://github.com/srei)",
+    "Ahmad Kanawi <ahmad@codemosey.net> (https://github.com/bartlett705)"
+  ],
+  "dependencies": {},
+  "description": "Chrome dev tool for react-redux with persistent store log, redux data flow visualization, and store time travel capability.",
+  "devDependencies": {},
+  "directories": {},
+  "keywords": [
+    "react",
+    "react-redux",
+    "redux",
+    "devtools",
+    "time travel"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "bartlett705",
+      "email": "ahmad@codemosey.net"
+    }
+  ],
+  "name": "seedux",
+  "optionalDependencies": {},
+  "readmeFilename": "README.md",
+  "scripts": {},
+  "version": "0.1.0"
+}

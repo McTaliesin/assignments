@@ -1,0 +1,36 @@
+const express = require("express");
+const app = express();
+
+const tops = [
+
+    type: "sweater",
+    color: "red",
+    price: 8000
+ },{
+    type: "sweater",
+    color: "red",
+    price: 8000
+ }
+]
+
+app.get('/top', (req, res) => {
+  console.log(req.query)
+  Top.find(req.query, function(foundTops){
+     res.send(foundTops)
+  })
+
+  
+  //const foundTops = tops.filter(top => {
+  //    for (key in req.query[key] === top[key]){
+
+      }
+
+    }
+     return req.query.color === top.color
+  })
+  res.send(foundTops);
+
+  })
+  res.send(foundTops);
+});
+]

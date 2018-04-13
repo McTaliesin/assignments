@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+document.getElementById("main.js).innerHTML = "Kung-Fu Panda";
+</script>
+</head>
+	<header id="pandaHeader">
+		<h1>Kung-Fu Panda</h1>
+	</header>
+<body>
+	<p> panda blah blah kung-fu blah blah can I have some more bamboo leaves
+already for thats mostly all I eat? Thanks! </p>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+.sigourni {
+    color:lightgrey;
+    border-style: dashed;
+    height:400px;
+    width:600px;
+    top:0px;
+    left:0px;
+    position:static;
+}   
+    .parent {
+        background-color:red;
+        position:relative;
+        height:400px;
+        width:600px;
+}       
+        .child {
+            position:relative;
+            background-color:green;
+            height:200px;
+            width:600px;
+            bottom:200px;
+}
+            .grandchild {
+                background-color:white;
+                position:relative;
+                height:400px;
+                width:200px;
+                bottom:600px;
+                right:0px;
+}
+.caption {
+    font-family:"African Elephant Trunk",cursive;
+    font-size:36px;
+    position:static;
+}
+
+         

@@ -1,0 +1,12 @@
+{
+  "name": "gameof3s",
+  "version": "1.0.0",
+  "description": "MENU Game of Threes 28 AUGUST 2017 Today we will be building an app to play the games of three's.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

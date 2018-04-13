@@ -1,0 +1,62 @@
+.parent {
+    position:static; 
+    width:1350px;
+    height:900px;
+    background-color:blue;
+}
+    .child {
+        position:relative;
+        width:1350px;
+        height:100px;
+        background-color:white;
+        top:100px;
+        
+}
+        .grandchild {
+            position:relative;
+            height:100px;
+            width:1350px;
+            background-color:white;
+            top:200px;
+}           
+            .greatgrandchild {
+                position:relative;
+                height:100px;
+                width:1350px;
+                background-color:white;
+                top:300px;
+}
+                .grgrgrandchild {
+                    position:relative;
+                    height:100px;
+                    width:1350px;
+                    background-color:white;
+                    top:500px;
+}
+                    .grgrgrgrandchild {
+                        position:relative;
+                        height:100px;
+                        width:1350px;
+                        background-color:white;
+                        top:100px;
+}
+                        .grgrgrgrgrandchild {
+                            position:relative;
+                            height:100px;
+                            width:1350px;
+                            background-color:white;
+                            top:00px;
+}
+.topbox {
+    position:relative;
+    height:500px;
+    width:500px;
+    background-color:blue;
+    :00px:
+}
+
+
+
+.caption {
+    text-align:center
+    

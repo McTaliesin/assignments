@@ -1,0 +1,26 @@
+.parent {
+    position:static; 
+    width:500px;
+    height:500px;
+    background-color:red;
+}
+    .child {
+        position:relative;
+        width:300px;
+        height:100px;
+        background-color:white;
+        top:200px;
+        left:100px;
+}
+        .grandchild {
+            position:relative;
+            height:300px;
+            width:100px;
+            background-color:white;
+            left:200px;
+}
+            
+.caption {
+    
+    font-family:Rosarivo,cursive;
+}

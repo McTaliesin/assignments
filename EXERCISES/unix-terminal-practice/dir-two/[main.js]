@@ -1,0 +1,4 @@
+function kungFu() {
+	document.getElementById("panda").innerHTML = "Hello kWorld!";
+}
+

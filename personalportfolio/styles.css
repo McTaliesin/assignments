@@ -1,0 +1,16 @@
+.Container {
+    font-family: Roboto, sans-serif;
+    background-color: lightblue;
+    color: #29293d;
+}
+
+.Body {
+    font-family: Parisienne, sans-serif;
+    background-color: beige;
+    color: #29293d;
+}
+.Footer {
+    font-family: Roboto, sans-serif;
+    background-color: bisque;
+    color: #29293d;
+}

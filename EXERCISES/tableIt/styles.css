@@ -1,0 +1,27 @@
+
+.hedr {
+    font-size: 48px;
+    color: red;
+}
+
+table {
+    font-family: roboto, "Roboto", sans-serif;
+    border-style: dotted;
+    width: 100%;
+    border-color:aquamarine;
+    
+}
+
+td, th {
+    border: 5px dashed #3a4a5a;
+    text-align: left;
+    padding: 5px;
+    
+    
+}
+
+tr:nth-child(even) {
+    background-color: #2b3;
+}
+
+

@@ -1,0 +1,136 @@
+.floating-box1 {
+    float: left;
+    width: 233px;
+    height: 144px;
+    margin:21px;
+    border:13px;
+    background-color:chartreuse;
+    box-shadow: 5px 8px 11px 0 #555;
+    border-radius: 23%;
+    -webkit-transition: all 20s ease-in-out;
+    -moz-transition: all 15s ease-in-out;
+    -o-transition: all 10s ease-in-out;
+    transition: all 5s ease-in-out;
+}
+.floating-box1:hover {
+    box-shadow: none;
+    border-radius: 5%;
+    background-color:deepskyblue;
+}
+
+.floating-box2 {
+    float: left;
+    width: 233px;
+    height: 144px;
+    margin:21px;
+    border:13px;
+    background-color:powderblue;
+    box-shadow: 5px 8px 11px 0 #555;
+    border-radius: 33%;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 5s ease-in-out;
+    -o-transition: all 4s ease-in-out;
+    transition: all 5s ease-in-out;
+}
+.floating-box2:hover {
+    box-shadow: none;
+    border-radius: 10%;
+    background-color:orchid;
+}
+.floating-box3 {
+    float: left;
+    width: 233px;
+    height: 144px;
+    margin:21px;
+    border:13px;
+    background-color:greenyellow;
+    box-shadow: 5px 8px 11px 0 #555;
+    border-radius: 13%;
+    -webkit-transition: all 20s ease-in-out;
+    -moz-transition: all 25s ease-in-out;
+    -o-transition: all 10s ease-in-out;
+    transition: all 39s ease-in-out;
+}
+.floating-box3:hover {
+    box-shadow: none;
+    border-radius: 15%;
+    background-color:magenta;
+}
+.floating-box4 {
+    float: right;
+    width: 233px;
+    height: 144px;
+    margin:21px;
+    border:13px;
+    background-color:salmon;
+    box-shadow: 5px 8px 11px 0 #555;
+    border-radius: 43%;
+    -webkit-transition: all 30s ease-in-out;
+    -moz-transition: all 12s ease-in-out;
+    -o-transition: all 11s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.floating-box4:hover {
+    box-shadow: none;
+    border-radius: 45%;
+    background-color:gold;
+}
+.floating-box5 {
+    float: left;
+    width: 233px;
+    height: 144px;
+    margin:21px;
+    border:13px;
+    background-color:tan;
+    box-shadow: 5px 8px 11px 0 #555;
+    border-radius: 53%;
+    -webkit-transition: all 10s ease-in-out;
+    -moz-transition: all 55s ease-in-out;
+    -o-transition: all 50s ease-in-out;
+    transition: all 4s ease-in-out;
+}
+.floating-box5:hover {
+    box-shadow: none;
+    border-radius: 25%;
+    background-color:tomato;
+}
+
+}
+.floating-box6 {
+    float: down;
+    width: 610px;
+    height: 377px;
+    margin:21px;
+    border:13px;
+    background-color:blue;
+    box-shadow: 5px 8px 11px 0 #555;
+    border-radius: 83%;
+    -webkit-transition: all 19s ease-in-out;
+    -moz-transition: all 19s ease-in-out;
+    -o-transition: all 19s ease-in-out;
+    transition: all 19s ease-in-out;
+}
+.floating-box6:hover {
+    box-shadow: none ;
+    border-radius: 45%;
+    background-color:salmon;
+}
+
+background: {
+    float: left;
+    width: 233px;
+    height: 144px;
+    margin:21px;
+    border:13px;
+    background-color:chartreuse;
+    box-shadow: 5px 8px 11px 0 #555;
+    border-radius: 23%;
+    -webkit-transition: all 20s ease-in-out;
+    -moz-transition: all 15s ease-in-out;
+    -o-transition: all 10s ease-in-out;
+    transition: all 5s ease-in-out;
+}
+background:hover {
+    box-shadow: none;
+    border-radius: 5%;
+    background-color:deepskyblue;

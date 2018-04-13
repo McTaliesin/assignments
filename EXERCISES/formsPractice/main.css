@@ -1,0 +1,6 @@
+
+e.preventDefault();
+console.log(document.favAnimals.animal.value);
+
+
+document.tastyAnimals

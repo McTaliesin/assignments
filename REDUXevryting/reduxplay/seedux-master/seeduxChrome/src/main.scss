@@ -1,0 +1,293 @@
+$activeColor: #f40051;
+// Original theme!
+
+// $bgColor: #f0f0f0;
+// $primColor: darkblue;
+// $linkColor: #0a0a0a;
+
+// Night theme!
+//
+$bgColor: #050A24;
+$primColor: #6E89FF;
+$linkColor: #214AFF;
+$popColor: white;
+
+// Nature theme!
+
+// $bgColor: #1E561F;
+// $primColor: #77Bf4B;
+// $linkColor: #3E261C;
+
+// Ocean theme!
+
+// $bgColor: #fafafa;
+// $primColor: #171C44;
+// $linkColor: $primColor * 6;
+// $popColor: black;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Syncopate:700');
+
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
+
+.well {
+  border-radius: 0.2em;
+  background-color: $bgColor * 1.5;
+  border: 1px dotted white;
+  padding: 1em;
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 8em;
+  background-color: $bgColor * 0.9;
+  border-bottom: $primColor 1px solid;
+}
+
+body {
+  color: $primColor;
+  background-color: $bgColor;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans';
+}
+table {
+  color: $popColor;
+}
+
+h1 {
+  font-family: "Syncopate";
+  font-weight: 700;
+  font-size: 3em;
+  display: inline;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.flashMessage {
+  font-size: 1.2em;
+  margin: 0 1em;
+  display: inline;
+  position: absolute;
+}
+
+.diff-json-container {
+  @extend .well;
+  vertical-align: top;
+  white-space: pre;
+  width: 30%;
+  display: inline-block;
+}
+
+.log-action-label {
+  font-weight: 700;
+}
+
+.col1, .col2, .col3 {
+  display: inline-block;
+  border-top: 1px solid $primColor;
+  border-left: 1px solid $primColor;
+  border-right: 1px solid $primColor;
+  width: 15em;
+}
+
+.diff-json-container {
+  width: 13em;
+}
+
+.diff-path, .diff-json-container {
+  height: inherit;
+}
+
+.Collapsible__trigger {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.Collapsible:nth-of-type(odd) {
+  background-color: $bgColor * 0.8;
+}
+
+.Collapsible {
+  border: 1px solid $primColor;
+  padding-left: 1em;
+}
+
+button:hover, select:hover, .custom-file-input::-webkit-file-upload-button:hover {
+  background: $primColor * 0.7;
+}
+
+button, select, .custom-file-input::-webkit-file-upload-button {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  cursor: pointer;
+  background: $primColor;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 0.75em;
+  margin: 0.25em;
+}
+
+.flipped {
+  display: inline-block;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1.4, 1.4);
+  padding-left: 0.25em;
+}
+
+.scaled {
+  -webkit-transform: scale(-1.4, 1.4);
+  transform: scale(-1.4, 1.4);
+}
+
+button:active, .custom-file-input::-webkit-file-upload-button:active {
+  background: $primColor;
+}
+.activeSetting {
+  background: green;
+}
+.time-label {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.move-left {
+  display: inherit;
+  left: 7.5em;
+  min-width: 20em;
+}
+
+.move-right {
+  display: inherit;
+  left: 32.5em;
+}
+
+.disabledSetting, .btn-reset {
+  background-color: red;
+}
+
+.menu-lines {
+  list-style-type: none;
+  text-align: center;
+}
+
+.banner {
+  padding: 1em;
+  height: 3em;
+  width: 100%;
+  top: 0;
+}
+
+.settings-title {
+  text-align: center;
+  cursor: pointer;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  outline: none;
+  -webkit-user-select: none;
+}
+
+.link-inactive {
+  stroke: $linkColor;
+  fill: none;
+}
+
+.link-active {
+  stroke: $activeColor;
+  fill: none;
+}
+
+.link-hidden {
+  display: none;
+}
+
+.node-inactive {
+  fill: $linkColor;
+}
+.node-active {
+  fill: $activeColor;
+}
+
+.node-hidden, .node-text-hidden {
+  display: none;
+}
+
+text {
+  fill: $popColor;
+  font-size: 12pt;
+}
+
+.action-creator {
+  width: 25em;
+  display: inline;
+  left: 21em;
+  position: absolute;
+}
+
+.action-creator > .Collapsible, .subToolbar > .Collapsible {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.subToolbar > .Collapsible:nth-child(2) {
+  display: inherit;
+  width: 15em;
+}
+
+.subToolbar > .Collapsible > div > div {
+  text-align: center;
+}
+
+.subToolbar > .Collapsible:nth-child(1) {
+  position: absolute;
+  width: 15em;
+  left: 10em;
+}
+
+.action-creator > .Collapsible > .Collapsible__contentOuter > .Collapsible__contentInner, .settings-menu > .Collapsible > .Collapsible__contentOuter > .Collapsible__contentInner, .subToolbar > .Collapsible > .Collapsible__contentOuter > .Collapsible__contentInner  {
+  @include background-opacity($bgColor * 0.7, 0.8);
+  border: 1px solid $primColor;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.subToolbar {
+  display: inline;
+  z-index: 5;
+  position: absolute;
+}
+
+.chart-container {
+  padding-top: 5em;
+  z-index: 0;
+  width: 100%;
+  overflow: scroll;
+}
+
+.log-entry-history, .log-entry-future {
+  padding-left: 1em;
+}
+
+.log-container {
+  padding: 0.5em;
+  padding-top: 3em;
+}
+
+.menu-contents {
+  list-style: none;
+}
+
+.toolbar-container {
+  display: inline;
+}
