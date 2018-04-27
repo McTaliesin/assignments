@@ -251,7 +251,7 @@
         bottom:2560px;
         z-index:-1;
 }
-}
+
 .p {
     color:aqua;
 }
@@ -271,7 +271,8 @@
         height:439px;
         font-size:15px;
         font-family:arial;
-        background-color:midnightblue;color:white;
+        background-color:midnightblue;
+        color:white;
         left:80px;
         bottom:2301px;
         z-index:-1;

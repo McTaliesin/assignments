@@ -1,0 +1,42 @@
+.container {
+    
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(21/34, 2/3);
+    grid-template-rows: repeat(55/89, 13/34);
+    grid-auto-rows: 100px;
+    
+    
+}
+
+container {
+    height: 100vh;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 2fr);
+    grid-template-rows: 34px auto 89px;
+    grid-template-areas:
+        "h h h h h h h h h h h ."
+        "m m m m c c c c . . . ."
+        "m m m m c c c c . . . ."
+        "f f f f f f f f f f f f";
+        
+}
+.melon {
+   
+    grid-area: h;
+}
+.whatchuwant {
+
+    grid-area: m;
+        ; 
+}
+.content {
+    grid-area: c;
+        
+}
+.footlocker {
+  grid-area: f;
+    
+    
+ 

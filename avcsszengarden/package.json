@@ -1,0 +1,17 @@
+{
+  "name": "avcsszengarden",
+  "version": "1.0.0",
+  "description": "css zen garden for V School",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "zen",
+    "garden",
+    "VSchool"
+  ],
+  "author": "McTaliesin",
+  "license": "ISC"
+}

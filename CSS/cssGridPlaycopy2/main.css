@@ -1,0 +1,70 @@
+
+
+.container  {
+    background-color: lightgray;
+}
+
+.head {
+    background-color: forestgreen;
+    
+    
+}
+
+.left {
+    position: relative;
+    left: 0%;
+    
+    
+    
+}
+
+.right {
+    position: relative;
+    right: 0px;
+}
+
+.footer {
+    
+}
+
+img#huntington { 
+    position: relative;
+    height: 300px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+img#con2ur {
+    position: relative;
+    opacity: .8;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    z-index: 992;
+}
+
+img#contouropaq {
+    position: absolute;
+    opacity: .8;
+    top: 0;
+    left: 0;
+    height: 0px;
+    left: 0px;
+    z-index: 993;
+    
+     
+    
+    
+    
+    
+}
+
+body {
+  background-color: green;
+  margin: 0px;
+}
+
+

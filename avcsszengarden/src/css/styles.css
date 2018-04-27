@@ -1,0 +1,41 @@
+
+body {
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-template-rows: auto 50px;
+    grid-template-columns: 12% auto;
+    grid-template-areas:
+        "top top top"
+        "left left right"
+        "left left right"
+        "left left right"
+        "footer footer footer";
+}
+
+top {
+    background-color: yellow;
+    grid-area: top;
+    display: grid;
+    grid-template-rows: auto; 
+}
+
+.huntington {
+    position: relative;
+    background-color:darkgray;
+    top: -100;
+    left: 0;
+    z-index: 1;
+}
+
+.contouropaque {
+    position: absolute;
+    background-color:darkgray;
+    top: -500;
+    left: 0;
+    z-index: 2;
+}
+
+
+
+
