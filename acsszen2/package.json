@@ -1,0 +1,19 @@
+{
+  "name": "acsszen",
+  "version": "1.0.0",
+  "description": "cssZenGarden",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zen",
+    "garden"
+  ],
+  "author": "McTaliesin",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1"
+  }
+}

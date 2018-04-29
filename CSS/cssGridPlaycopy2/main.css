@@ -1,20 +1,74 @@
 
 
 .container  {
-    background-color: lightgray;
+    
 }
 
 .head {
-    background-color: forestgreen;
+       
+}
+
+.czg {
+    position: relative;
+    width: 65%;
+    font-size: 3em;
+    font-family: arial, sans-serif;
+    color: white;
+    top: 90px;
+    left:22%;
+}
+
+.beauty {
+    position: relative;
+    font-size: 1.5em;
+    font-family: arial, sans-serif;
+    color: lightgrey;
+    top: -35px;
+    left:22%;
+}
+
+.viewall {
+    position: relative;
+    font-size: 1.2em;
+    font-family: arial, sans-serif;
+    color: lightgrey;
+    top: -35px;
+    left:76%;
+}
+
+.fwdarrow {
+    position: relative;
+    font-size: 1.2em;
+    font-family: arial, sans-serif;
+    color: lightgrey;
+    top: -57px;
+    left:89%;
+}
+
+
+.logo {
+    position: relative;
+    top: 15px;
+    left: 100px;
+    width: 135px;
+    height: 135px;
     
-    
+}
+
+.demonstration {
+    position: relative;
+    top: 15px;
+    left: 100px;
+    width: 65%;
+    height: 135px;
+     
 }
 
 .left {
     position: relative;
     left: 0%;
-    
-    
+    width: 50%;
+    margin: 0 0 0 10%;
     
 }
 
@@ -23,17 +77,13 @@
     right: 0px;
 }
 
-.footer {
-    
-}
-
-img#huntington { 
-    position: relative;
+.huntington { 
+    position: absolute;
     height: 300px;
     width: 100%;
-    top: 0;
+    top: 00px;
     left: 0;
-    z-index: 1;
+    z-index: -1;
 }
 
 img#con2ur {
@@ -63,8 +113,16 @@ img#contouropaq {
 }
 
 body {
-  background-color: green;
-  margin: 0px;
+    background-color: lightgoldenrodyellow;
+    margin: 0px;
 }
 
 
+.footer {
+    background-color: bisque;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+   
+}
