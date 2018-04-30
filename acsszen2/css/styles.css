@@ -7,61 +7,61 @@ body {
     
 }
 
+p {
+    margin-bottom: 0px;
+}
 .top {
    
     width: 100%;
     height: 0;
-    margin: 0px;   
-    
+    margin: 0px;    
 }
 
-    .huntington {
+.huntington {
+    position: absolute;
+    height:300px;
+    width: 100%;
+    z-index: 3;
+}
+
+.con2oura {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 51%;
+    z-index: 4;
+}
+
+.con2ourb {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 51%;
+    z-index: 4;
+}
+
+.gridlinopaq {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.67;
+    filter: alpha(opacity=60);
+    background-repeat: repeat;
+    z-index: 4;
+}
+
+    .enso {      
         position: absolute;
-        height:300px;
-        width: 100%;
-        z-index: 1;
-
-    }
-
-    .con2oura {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 51%;
-        z-index: 2;
-    }
-
-    .con2ourb {
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 51%;
-        z-index: 2;
-    }
-
-    .gridlinopaq {
-        position: fixed;
-        top: 0;
-        left: 0;
-        opacity: 0.67;
-        filter: alpha(opacity=60);
-        z-index: 3;
-    }
-
-    .enso {
-       
-        position: absolute;
-        top: 90px;
-        left: 120px;
-        height 145px;
-        width: 145px;
+        top: 70px;
+        left: 135px;
+        height 125px;
+        width: 125px;
         opacity: 0.67;
         filter: alpha(opacity=60);
         z-index: 10;
     }
 
-    h1 {
-        
+    h1 {      
         position: absolute;
         top: 11%;
         left: 20%;
@@ -73,14 +73,13 @@ body {
         z-index: 5;
     }
 
-    .beauty {
-        
+    .beauty {     
         position: absolute;
         top: 27%;
         left: 21%;
         height 20px;
         width: 600px; 
-        font-family: "Times New Roman", serif;
+        font-family: "Libre Baskerville", serif;
         font-size: 1.9em;
         font-weight:lighter;
         color: lightgrey;
@@ -88,27 +87,20 @@ body {
     }
 
     .viewall {
-
         background-color: #aaaaaa;
         opacity: 0.27;
-        filter: alpha(opacity=60);
-       
+        filter: alpha(opacity=60);     
         position: absolute;
         top: 22%;
         left: 70%;
         height 100px;
         width: 250px;
         z-index: 5;
-
-
     }
 
     .viewalltxt {
-
         background-color: white;
-        background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
-        background: rgba(204, 204, 204, 0.6);
-        
+        background: rgb(204, 204, 204); 
         position: absolute;
         top: 22%;
         left: 70%;
@@ -130,8 +122,8 @@ body {
 
     .aside {
         position: relative;
-        top: 186px;
-        left: 1300px;
+        top: 0px;
+        left: 00px;
         float: right;
         width: 490px;
         height: 300px;
@@ -140,80 +132,214 @@ body {
         z-index: 10;
     }
 
-    .bamboo {
-        position: fixed;
-        top: 0px;
-        left: 0;
-        width: 100%;
-        height: 900px;
-        z-index:-1;
-    
+.bamboo {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    z-index:2;   
 }
 
 .main {
     margin: 0;
+    
 }
 
 .asidelow {
     position: relative;
-    top: 236px;
-    left: 1300px;
+    top: 285px;
+    left: 450px;
     float: right;
-    width: 490px;
-    height: 2300px;
-    
-    background-color: rgb (231, 237, 233);
+    width:450px;
+    height: 700px;
+    color:red;
+    list-style-type: none;
+    border-top: 50px;
+    border-left: 50px;
     z-index: 10;
 }
 
 .asidetxt {
     position: relative;
-    top: 500px;
-    left: ;
+    top: 15px;
+    left: 40px;
     float: right;
     width: 490px;
-    height: 1300px;
-    background-color: red;
-    z-index: 20;
-    line-height: 3em
-        
+    height: 899px;
+    background-color: rgb(230, 237, 232);
+    color: red;
+    font-size: 1.2em;
+    list-style-type: none;
+    line-height: 2.5em;
+    padding-top: 50px;
+    padding-left: -50px;
+    
 }
 
+.asidelower {
+    position: relative;   
+    color: lime;
+    top: 0px;
+    left: 0px;
+    float: right;
+    width: 490px;
+    height: 849px;
+    list-style-type: none;
+    z-index: -5;
+    border-top: 30px;
+    
+}
 
+.asidelowertext {
+    position: relative;
+    background-color: rgb(181, 203, 188);
+    color: darkslategray;
+    top: 400px;
+    left: 0px;
+    float: right;
+    width: 490px;
+    height: 849px;
+    font-size: 1.3em;
+    line-height: 3.5em;
+    list-style-type: none;
+    z-index: -2;
+}
+
+.asidebottom {
+    position: relative;
+    background-color: aquamarine;
+    top: 1250px;
+    left: 500px;
+    float: right;
+    width:500px;
+    height: 800px;
+    z-index: 10;
+}
 
 .content {
     position: relative;
-    top: 00px
+    top: -149px;
 }
 
 .features {
-    position: relative;
-    
-    background-color:antiquewhite;
-    grid-area: left;
-    float: left;
-    
-    text-align:left;
-    left: 180px;
-    top: -2000px;
-    width: 72%;
+    list-style-type: none;
 }
 
+.first {
+    position: relative; 
+    background-color: white;
+    float: left;
+    left: 0px;
+    top: -1249px;
+    width: 950px;
+    height: 950px;
+    font-size: 1.21em;
+    margin: 0px;
+    z-index: 5;
+}
+
+.second {
+    position: relative; 
+    float: left;
+    left: -40px;
+    top: -1180px;
+    width: 950px;
+    height: 900px;
+    font-size: 1.2em;   
+}
+
+.secondbackgr {
+    position: relative; 
+    background-color: rgb(201, 220, 207);
+    float: left;
+    left: -0px;
+    top: -90px;
+    width: 950px;
+    height: 900px;
+    z-index: -2;
+}
+
+.thirdbackgr {
+    position: relative; 
+    background-color: yellow;
+    float: left;
+    left: -40px;
+    top: -1300px;
+    width: 950px;
+    height: 800px;
+    font-size: 1.19em;
+    line-height: 3em;
+    letter-spacing: 0.29px;
+    margin: 0px;
+    z-index: 5;
+}
+
+
 .uprcase {
-    font-size: 4em;
-    
-    color:aqua;
-    
+    font-size: 1.5em;
+    font-family: 'Julius Sans One', sans-serif;
+    color:darkslategray;
+    list-style-type: none;
+    margin-left: 150px;
+    margin-top: 40px;
 }
 
 .mainbody {
-    line-height: 2em;
-    font-family: "Times New Roman", serif;
-    color: red;
+    line-height: 1.5em;
+    font-family: "Libre Baskerville", serif;
+    color:darkslategray;
+    font-size 4em;
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-bottom: 0px;
+    margin-left: 150px;   
 }
 
-.bottom {
-    
-    background: gold;
-    
+.foot {
+    position: absolute;
+    top: 3030px;
+    left: 0px;  
+    width: 100%;
+    height: 320px; 
+    z-index: ;
 }
+
+.koi {
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    width: 100%;
+    height: 325px; 
+    z-index: 3;
+}
+
+.koigrida {
+    background-image: url(gridlines1.png);
+    background-repeat: repeat;
+    position: fixed;
+    top: 0px;
+    left: 250px;
+    
+    z-index: 4;
+}
+
+.koigridb {
+    background-image: url(gridlines1.png);
+    background-repeat: repeat;
+    position: fixed;
+    top: 250px;
+    left: 250px;
+    
+    z-index: 4;
+}
+
+.footblock {
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    top: 321px;
+    background-color: rgb(33, 66, 70);
+    z-index: 20;
+}
+
