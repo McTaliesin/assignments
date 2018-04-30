@@ -17,38 +17,37 @@ p {
     margin: 0px;    
 }
 
-.huntington {
-    position: absolute;
-    height:300px;
-    width: 100%;
-    z-index: 3;
-}
+    .huntington {
+        position: absolute;
+        height:300px;
+        width: 100%;
+        z-index: 3;
+    }
 
-.con2oura {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 51%;
-    z-index: 4;
-}
+    .con2oura {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 51%;
+        z-index: 4;
+    }
 
-.con2ourb {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 51%;
-    z-index: 4;
-}
+    .con2ourb {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 51%;
+        z-index: 4;
+    }
 
-.gridlinopaq {
-    position: fixed;
-    top: 0;
-    left: 0;
-    opacity: 0.67;
-    filter: alpha(opacity=60);
-    background-repeat: repeat;
-    z-index: 4;
-}
+    .gridlinopaq {
+        position: fixed;
+        top: 0;
+        left: 0;
+        opacity: 0.67;
+        filter: alpha(opacity=60);
+        z-index: 4;
+    }
 
     .enso {      
         position: absolute;
@@ -91,9 +90,9 @@ p {
         opacity: 0.27;
         filter: alpha(opacity=60);     
         position: absolute;
-        top: 110px;
-        left: 880px;
-        height 88px;
+        top: 22%;
+        left: 70%;
+        height 100px;
         width: 250px;
         z-index: 5;
     }
@@ -109,7 +108,7 @@ p {
         font-family: arial, sans-serif;
         font-size: 1.4em;
         font-weight: 400;
-        color:lime;
+        color:white;
         z-index: 5;
     }
 
@@ -146,10 +145,6 @@ p {
     
 }
 
-li {
-    list-style-type:none;
-}
-
 .asidelow {
     position: relative;
     top: 285px;
@@ -157,8 +152,7 @@ li {
     float: right;
     width:450px;
     height: 700px;
-    color:lime;
-    text-decoration: none;
+    color:red;
     list-style-type: none;
     border-top: 50px;
     border-left: 50px;
@@ -171,42 +165,26 @@ li {
     left: 40px;
     float: right;
     width: 490px;
-    height: 901px;
-    background-color: rgb(231, 237, 233);
-    color: darkslategray;
+    height: 899px;
+    background-color: rgb(230, 237, 232);
+    color: red;
     font-size: 1.2em;
     list-style-type: none;
-    text-decoration: none;
-    line-height: 1.5em;
+    line-height: 2.5em;
     padding-top: 50px;
-    padding-left: -50px;  
-}
-
-.asidetxt li {
-    border-bottom: 1px solid rgb(165, 184, 174);
-    width: 300px;
-    color: rgb(99, 115, 117);
+    padding-left: -50px;
     
-}
-
-.asidetxt li i {
-    color: rgb(193, 205, 195);
-}
-
-.asidetext c {
-    font-size: 0.7em;
 }
 
 .asidelower {
     position: relative;   
-    color: darkslategray;
+    color: lime;
     top: 0px;
     left: 0px;
     float: right;
     width: 490px;
     height: 849px;
     list-style-type: none;
-    text-decoration: none;
     z-index: -5;
     border-top: 30px;
     
@@ -215,42 +193,16 @@ li {
 .asidelowertext {
     position: relative;
     background-color: rgb(181, 203, 188);
-    color: rgb(96, 112, 114);
-    top: 402px;
+    color: darkslategray;
+    top: 400px;
     left: 0px;
     float: right;
     width: 490px;
     height: 849px;
-    font-size: 1.2em;
-    font-weight: 500;
+    font-size: 1.3em;
     line-height: 3.5em;
-    text-decoration: none;
-    border-left: 80px;
+    list-style-type: none;
     z-index: -2;
-    
-}
-
-.asidelowertext li {
-    border-bottom: 1px solid rgb(165, 184, 174);
-    margin-left: 30px;
-    width: 280px;
-    
-}
-
-.asidelowertext li textx {
-    border-top: 1px solid #000;
-    width: 280px;
-}
-
-.asidebottom {
-    position: relative;
-    background-color: rgb(231, 237, 233);
-    top: 1250px;
-    left: 500px;
-    float: right;
-    width:500px;
-    height: 800px;
-    z-index: 10;
 }
 
 .content {
@@ -298,14 +250,14 @@ li {
 
 .thirdbackgr {
     position: relative; 
-    background-color: white;
+    background-color: yellow;
     float: left;
     left: -40px;
     top: -1300px;
     width: 950px;
-    height: 800px;
+    height: 900px;
     font-size: 1.19em;
-    line-height: 3em;
+    line-height: 2.5em;
     letter-spacing: 0.29px;
     margin: 0px;
     z-index: 5;
@@ -323,7 +275,7 @@ li {
 
 .mainbody {
     line-height: 1.5em;
-    font-family: "arial", serif;
+    font-family: "Libre Baskerville", serif;
     color:darkslategray;
     font-size 4em;
     margin-top: 20px;
@@ -334,96 +286,7 @@ li {
 
 .foot {
     position: absolute;
-    top: 3030px;
-    left: 0px;  
-    width: 100%;
-    height: 320px; 
-    z-index: ;
+    top: 3270px;
+    background-color: yellow;
+    z-index: 25
 }
-
-.koi {
-    position: absolute;
-    top: 0px;
-    left: 0px; 
-    width: 100%;
-    height: 325px; 
-    z-index: 3;
-}
-
-.koigrida {
-    background-image: url(images/gridlines1.png);
-    background-repeat: repeat;
-    position: fixed;
-    top: 0px;
-    left: 250px;
-    
-    z-index: 4;
-}
-
-.koigridb {
-    background-image: url(images/gridlines1.png);
-    background-repeat: repeat;
-    position: fixed;
-    top: 250px;
-    left: 250px;
-    
-    z-index: 4;
-}
-
-@font-face {
-  font-family: 'verdemodernab';
-  src: url('verdemodernab.eot'); /* IE9 Compat Modes */
-  src: url('verdemodernab.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('verdemodernab.woff2') format('woff2'), /* Super Modern Browsers */
-       url('verdemodernab.woff') format('woff'), /* Pretty Modern Browsers */
-       url('verdemodernab.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('verdemodernab.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
-.foottext {
-    position: absolute;
-    width: 100%;
-    height: 130px;
-    line-height: 65px;
-    top: 110px;
-    left: 0px;
-    color: rgb(204, 211, 210);
-    font-family: "verdemoderna", sans-serif;
-    font-size: 2.0em;
-    font-weight: 500;
-    text-align: center;
-    z-index: 20;
-    
-}
-
-.foottext i{
-    color: rgb(144, 162, 158);
-}
-
-.footblock {
-    position: absolute;
-    width: 100%;
-    height: 170px;
-    top: 321px;
-    font-family: "verdemoderna", sans-serif;
-    font-size: 2.0em;
-    background-color: rgb(33, 66, 70);
-    z-index: 20;
-}
-
-.footlogo {
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    top: 390px;
-    font-family: "verdemoderna", sans-serif;
-    font-size: 4.0em;
-    text-align: center;
-    color: lime;
-    z-index: 20; 
-}
-
-
-
-
-

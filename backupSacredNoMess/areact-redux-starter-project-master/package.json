@@ -1,0 +1,24 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "main": "App.js",
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "--- This project was created as a starting point for React projects (using create-react-app) with Redux and Redux-Thunk. It is based off the tutorial [here](https://code.likeagirl.io/tutorial-for-adding-redux-to-a-react-app-1a94cc1738e5). The tutorial was meant as a guide and does not provide working code. This project follows that guide, with updates to eliminate bugs, and get the project fully running.",
+  "author": "",
+  "license": "ISC"
+}

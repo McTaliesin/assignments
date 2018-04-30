@@ -1,0 +1,35 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+}
+
+html, body {
+  background-color: #ffeead;
+  margin: 10px;
+}
+
+.container > div:nth-child(1n) {
+  background-color: red;    
+}
+
+.container > div:nth-child(2n) {
+  background-color: gold;
+}
+
+.container > div:nth-child(3n) {
+    background-color: black;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns:repeat(12,2fr);
+    grid-template-rows: 34px auto 89px;
+    grid-template-areas:
+        "h h h h"
+        "m m h h"
+        "c c c c"
+        "f f f f";
+}
+
+//
