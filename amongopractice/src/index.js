@@ -9,12 +9,6 @@ import { BrowserRouter } from "react-router-dom";
 
 
 
-ReactDOM.render(
-    <BrowserRouter>
-        <App/>
-    </BrowserRouter>
-, document.getElementById("root"));
-
 // Need to import Switch and Route
 import { Switch, Route } from "react-router-dom";
 
@@ -46,3 +40,9 @@ function App () {
         </div>
     )
 }
+
+ReactDOM.render(
+    <BrowserRouter>
+        <App/>
+    </BrowserRouter>
+, document.getElementById("root"));
