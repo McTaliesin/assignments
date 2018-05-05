@@ -14,7 +14,8 @@ const myCoin = new Coin({
   name: 'Bitcoin',
   symbol: 'BTC',
   price_usd: 10,
-  price_btc: 10
+  price_btc: 10,
+  rank: Number
 });
 
 myCoin.save((err, new_coin) => {
