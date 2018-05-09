@@ -1,0 +1,9 @@
+.headerBar {
+    background-color: green;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    font-color: aqua;
+
+}
