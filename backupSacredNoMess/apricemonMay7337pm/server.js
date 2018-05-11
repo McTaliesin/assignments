@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb://localhost/CoinAPI", (err) => {
+mongoose.connect("mongodb://localhost/datadb", (err) => {
     if (err) throw err;
     console.log("Connected to the Mongo database");
 })
