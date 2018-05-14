@@ -2,8 +2,12 @@ const MongoClient = require('mongodb').MongoClient;
 
 const MONGO_URL = 'mongodb://<dbuser>:<dbpassword>@ds119800.mlab.com:19800/vschoolfinal555';
 
+const express = require('express');
+const app = express();
 
-
+app.listen(3000, function() {
+  console.log('listening on 3000')
+})
 
 MongoClient.connect(MONGO_URL, (err, db) => {
   if (err) {

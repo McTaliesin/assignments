@@ -4,7 +4,7 @@ const bodyParser= require('body-parser');
 const app = express();
 
 app.set('view engine', 'ejs')
-res.render(view, locals)
+
 app.use(bodyParser.urlencoded({extended: true}))
 app.listen(3000, function () {
   console.log('listening on 3000');
@@ -26,7 +26,7 @@ const MongoClient = require('mongodb').MongoClient
 
 MongoClient.connect('mongodb://<dbuser>:<dbpassword>@ds119800.mlab.com:19800/vschoolfinal555', (err, client) => {
   if (err) return console.log(err)
-  db = client.db('star-wars-quotes')
+  db = client.db('vschoolfinal555')
   app.listen(3000, () => {
     console.log('now listening on port 3000')
   })
