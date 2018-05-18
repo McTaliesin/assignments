@@ -9,7 +9,7 @@ function Form(props) {
                 type="text"
                 onChange={props.handleChange}
                 value={props.values.searchInput}
-                placeholder="Enter a Coin name or rank number"
+                placeholder="Enter a title, author, or ISBN #"
             />
             <input className="button" type="submit"/>
         </form>

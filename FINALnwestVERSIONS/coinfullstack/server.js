@@ -5,15 +5,12 @@ const mongoose = require("mongoose");
 
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb://localhost/datadb", (err) => {
+mongoose.connect("mongodb://<dbuser>:<dbpassword>@ds119800.mlab.com:19800/vschoolfinal555", (err) => {
     if (err) throw err;
-    console.log("Connected to the Mongo database");
+    console.log("You are now Connected to THE Mongo database");
 })
-
-
-// app.use("/auth", require("./routes/auth"));
 app.use("/coins", require("./routes/coins"));
 
 app.listen(4000, () => {
-    console.log("Coinz is running on 3000");
+    console.log("Coinz is running smooth on 3000");
 })

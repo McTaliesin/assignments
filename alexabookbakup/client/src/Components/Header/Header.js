@@ -6,9 +6,9 @@ import {Link} from "react-router-dom";
 function Header() {
     return (
         <div className="headerBar">
-            <Link className="headerLink" to="/">Home</Link>
+            <Link className="headerLink" to="/">#Home </Link>
             <p></p>
-            <Link className="headerLink" to="/favorites">Previous Price</Link>
+            <Link className="headerLink" to="/favorites"> #Favorites</Link>
         </div>
     )
 }
