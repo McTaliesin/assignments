@@ -1,0 +1,14 @@
+.searchFrame {
+    background-color: rgb(166,157,133);
+    width: 90%;
+    height: 10%;
+    border-radius: 30%;
+
+}
+button {
+  background-color: rgb(236,236,201);
+  border-radius: 30%;
+}
+h1 {
+  color:lime;
+}

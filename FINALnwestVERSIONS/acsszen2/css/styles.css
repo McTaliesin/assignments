@@ -4,17 +4,25 @@ body, html { height: 100%; }
 body {
     margin:0;
     font-family: 'Montserrat', sans-serif;
-    
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+        "top"
+        "right"
+        "left"
+        "foooter";
 }
 
 p {
     margin-bottom: 0px;
 }
 .top {
-   
+    grid-area: top;
+    display: grid;
     width: 100%;
     height: 0;
-    margin: 0px;    
+    margin: 0px;
 }
 
 .huntington {
@@ -50,7 +58,7 @@ p {
     z-index: 4;
 }
 
-    .enso {      
+    .enso {
         position: absolute;
         top: 70px;
         left: 135px;
@@ -61,35 +69,35 @@ p {
         z-index: 10;
     }
 
-    h1 {      
+    h1 {
         position: absolute;
         top: 11%;
         left: 20%;
         height 30px;
-        width: 600px; 
+        width: 600px;
         font-size: 3.3em;
         font-weight:lighter;
         color: white;
         z-index: 5;
     }
 
-    .beauty {     
+    .beauty {
         position: absolute;
         top: 27%;
         left: 21%;
         height 20px;
-        width: 600px; 
+        width: 600px;
         font-family: "Libre Baskerville", serif;
         font-size: 1.9em;
         font-weight:lighter;
         color: lightgrey;
-        z-index: 5;    
+        z-index: 5;
     }
 
     .viewall {
         background-color: #aaaaaa;
         opacity: 0.27;
-        filter: alpha(opacity=60);     
+        filter: alpha(opacity=60);
         position: absolute;
         top: 110px;
         left: 880px;
@@ -100,12 +108,12 @@ p {
 
     .viewalltxt {
         background-color: white;
-        background: rgb(204, 204, 204); 
+        background: rgb(204, 204, 204);
         position: absolute;
         top: 22%;
         left: 70%;
         height 140px;
-        width: 270px; 
+        width: 270px;
         font-family: arial, sans-serif;
         font-size: 1.4em;
         font-weight: 400;
@@ -138,16 +146,21 @@ p {
     left: 0;
     width: 100%;
     height: 900px;
-    z-index:2;   
+    z-index:2;
 }
 
-.main {
+.bain {
     margin: 0;
-    
+
 }
 
 li {
     list-style-type:none;
+}
+
+.right {
+   grid-area: right;
+    display: grid; 
 }
 
 .asidelow {
@@ -179,14 +192,14 @@ li {
     text-decoration: none;
     line-height: 1.5em;
     padding-top: 50px;
-    padding-left: -50px;  
+    padding-left: -50px;
 }
 
 .asidetxt li {
     border-bottom: 1px solid rgb(165, 184, 174);
     width: 300px;
     color: rgb(99, 115, 117);
-    
+
 }
 
 .asidetxt li i {
@@ -198,7 +211,7 @@ li {
 }
 
 .asidelower {
-    position: relative;   
+    position: relative;
     color: darkslategray;
     top: 0px;
     left: 0px;
@@ -209,7 +222,7 @@ li {
     text-decoration: none;
     z-index: -5;
     border-top: 30px;
-    
+
 }
 
 .asidelowertext {
@@ -227,14 +240,14 @@ li {
     text-decoration: none;
     border-left: 80px;
     z-index: -2;
-    
+
 }
 
 .asidelowertext li {
     border-bottom: 1px solid rgb(165, 184, 174);
     margin-left: 30px;
     width: 280px;
-    
+
 }
 
 .asidelowertext li textx {
@@ -253,6 +266,10 @@ li {
     z-index: 10;
 }
 
+.left {
+    grid-area: left;
+    display: grid;
+}
 .content {
     position: relative;
     top: -100px;
@@ -263,7 +280,7 @@ li {
 }
 
 .first {
-    position: relative; 
+    position: relative;
     background-color: white;
     float: left;
     left: 0px;
@@ -276,17 +293,17 @@ li {
 }
 
 .second {
-    position: relative; 
+    position: relative;
     float: left;
     left: -40px;
     top: -1180px;
     width: 950px;
     height: 900px;
-    font-size: 1.2em;   
+    font-size: 1.2em;
 }
 
 .secondbackgr {
-    position: relative; 
+    position: relative;
     background-color: rgb(201, 220, 207);
     float: left;
     left: -0px;
@@ -297,7 +314,7 @@ li {
 }
 
 .thirdbackgr {
-    position: relative; 
+    position: relative;
     background-color: white;
     float: left;
     left: -40px;
@@ -329,24 +346,24 @@ li {
     margin-top: 20px;
     margin-right: 70px;
     margin-bottom: 0px;
-    margin-left: 150px;   
+    margin-left: 150px;
 }
 
 .foot {
     position: absolute;
     top: 2900px;
-    left: 0px;  
+    left: 0px;
     width: 100%;
-    height: 320px; 
+    height: 320px;
     z-index: ;
 }
 
 .koi {
     position: absolute;
     top: 0px;
-    left: 0px; 
+    left: 0px;
     width: 100%;
-    height: 325px; 
+    height: 325px;
     z-index: 3;
 }
 
@@ -356,7 +373,7 @@ li {
     position: fixed;
     top: 0px;
     left: 250px;
-    
+
     z-index: 4;
 }
 
@@ -366,7 +383,7 @@ li {
     position: fixed;
     top: 250px;
     left: 250px;
-    
+
     z-index: 4;
 }
 .icons {
@@ -375,7 +392,12 @@ li {
 @font-face {
   font-family: 'verdemoderna';
   src: url('verdemoderna.woff'); /* IE9 Compat Modes */
-  
+
+}
+
+.foooter {
+    grid-area: foooter;
+    display: grid;
 }
 
 .foottext {
@@ -386,12 +408,12 @@ li {
     top: 110px;
     left: 0px;
     color: rgb(204, 211, 210);
-    
+
     font-size: 2.0em;
     font-weight: 500;
     text-align: center;
     z-index: 20;
-    
+
 }
 
 .foottext i{
@@ -403,7 +425,7 @@ li {
     width: 100%;
     height: 170px;
     top: 321px;
-    
+
     font-size: 2.0em;
     background-color: rgb(33, 66, 70);
     z-index: 20;
@@ -414,14 +436,36 @@ li {
     width: 100%;
     height: 100px;
     top: 390px;
-    
+
     font-size: 4.0em;
     text-align: center;
     color: rgb(144, 161, 163);
-    z-index: 20; 
+    z-index: 20;
 }
 
+@media screen and (max-width: 60em) {
+    .sidebar {
+        display: none;
+    }
 
+    body {
+        grid-template-columns: auto;
+        grid-template-areas:
+            "top"
+            "left";
+    }
 
+   
+@media screen and (max-width: 40em) {
 
-
+    .main {
+        grid-template-rows: auto fit-content(30%)40% auto;
+    }
+    header {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, auto)
+    }
+  
+    
+    
+    

@@ -1,0 +1,21 @@
+.input {
+    width: 38.2%;
+    height: 65px;
+    display: inline-block;
+    border-radius: 30%;
+    background: rgb(234,232,206);
+    font-size: 1.8em;
+    font-family: cursive;
+    color: red;
+
+}
+
+
+.button {
+    height: 35px;
+    margin-left: 13px;
+    font-size: 1.3em;
+    border-radius: 50%;
+    padding: 3 13px 3 13px;
+    background: lime;
+}
