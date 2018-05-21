@@ -38,7 +38,7 @@ class Home extends Component {
         console.log("submitted");
         e.preventDefault();
         const parsedSearch = this.state.searchInput.split(" ").join("+");
-      
+        axios.get(GoogleBooksAPI + parsedSearch + )
             .then(response => {
                 this.setState({
                     searchResults: response.data.items,
