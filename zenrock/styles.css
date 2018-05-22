@@ -1,0 +1,65 @@
+.main {
+    display: grid;
+    font-family:sans-serif;
+    grid-template-rows: repeat(10, 20em);
+    grid-template-columns: 65% 35%;
+    text-align: center;
+    grid-template-areas:
+        "ttop" 
+        "rright"
+        "lleft"
+        "foteer";
+}
+.topp {
+    grid-area: ttop;
+    grid-column: 1 / 3;
+    grid-row: 1;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background-color:aqua;
+    font-family:sans-serif;
+}
+.rightt {
+    grid-area: rright;
+    grid-column: 2 / 3;
+    grid-row: 2 / 9;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background-color:red;
+}
+.leftt {
+    grid-area: lleft;
+    grid-column: 1 / 2;
+    grid-row: 2 / 9;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background-color:lime;
+}
+.foooter {
+    grid-area: foteer;
+    grid-column: 1 / 3;
+    grid-row: 10;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background-color:gold;
+}
+
+@media screen and (max-width: 60em) {
+    .main {
+    display: grid;
+    font-family:sans-serif;
+    grid-template-rows: repeat(10, 20em);
+    grid-template-columns: 65% 35%;
+    text-align: center;
+    grid-template-areas:
+        "foteer" 
+        "rright"
+        "lleft"
+        "ttop";
+}
+}
+    
