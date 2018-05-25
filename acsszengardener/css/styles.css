@@ -127,13 +127,12 @@ p {
         font-size: 3.3em;
         font-weight:lighter;
         color: white;
-        text-align:center;
         z-index: 5;
     }
 
     .beauty {
         position: absolute;
-        top: 19%;
+        top: 13%;
         left: 25%;
         height 20px;
         width: 600px;
@@ -141,7 +140,6 @@ p {
         font-size: 1.9em;
         font-weight:lighter;
         color: lightgrey;
-        text-align:center;
         z-index: 5;
     }
 
@@ -335,11 +333,11 @@ li {
 }
 
 .first {
-    position: absolute;
+    position: relative;
     background-color: white;
     float: left;
     left: ;
-    top: 200px;
+    top: -41.25%;
     width:100%;
     height: 1000px;
     z-index: 5;
@@ -551,13 +549,13 @@ li {
         position: absolute;
         top: 22%;
         left: -0px;
-        height:;
+        height:60px;
         width: 100%;
         z-index: 7;
     }
 
     .viewalltxt {
-        background-color:;
+        background-color: aqua;
         background: rgb(204, 204, 204);
         position: absolute;
         top: 100%;
@@ -580,7 +578,7 @@ li {
         top:;
         width:0;
         height:0;
-        color: red;
+        color: white;
         z-index: 15;
     }
 
@@ -764,7 +762,7 @@ li {
     .beauty {
         position: absolute;
         text-align:center;
-        top: 19%;
+        top: 16%;
         left: 25%;
         height 20px;
         width: 50%;
@@ -1001,95 +999,3 @@ li {
         }
 
 }
-@media screen and (max-width: 40em) {
-    
-    
-
-          .one {
-                grid-area: top;
-                display: grid;
-                background-color:;
-            /*    opacity:.40;*/
-
-                }
-
-                .enso {
-                position: absolute;
-                text-align: center;
-                top: 3%;
-                left:50%;
-                height 10%;
-                width: 10%;
-                opacity: 0.67;
-                filter: alpha(opacity=60);
-                z-index: 10;
-            }
-
-            h1 {
-                position: absolute;
-                text-align:center;
-                top: 5%;
-                left: center;
-                height 30px;
-                width: 50%;
-                font-size: 3.3em;
-                font-weight:lighter;
-                color: white;
-                z-index: 9;
-            }
-
-            .beauty {
-                position: absolute;
-                text-align:center;
-                top: 19%;
-                left: 25%;
-                height 20px;
-                width: 50%;
-                font-family: "Libre Baskerville", serif;
-                font-size: 1.9em;
-                font-weight:lighter;
-                color: white;
-                z-index: 15;
-            }
-            .huntington {
-                position: absolute;
-                height:300px;
-                width: 100%;
-                z-index: 3;
-            }
-            .viewall {
-                background-color: #aaaaaa;
-                opacity: 0.27;
-                filter: alpha(opacity=60);
-                position: absolute;
-                top: 27%;
-                left: ;
-                height 88px;
-                width: 100%;
-                z-index: 5;
-                margin:20px 10px 20px 10px;
-            }
-
-            .viewalltxt {
-                background-color: white;
-                background: rgb(204, 204, 204);
-                position: absolute;
-                top: 10px;
-                left: 0%;
-                height 30px;
-                width: 100%;
-                font-family: arial, sans-serif;
-                font-size: 1.4em;
-                font-weight: 400;
-                color:red;
-                z-index: 5;
-            }
-
-            div.viewall p {
-                margin: 9%;
-                font-weight: bold;
-                color: white;
-                z-index: 5;
-            }
-}
-    
