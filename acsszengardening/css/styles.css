@@ -127,12 +127,13 @@ p {
         font-size: 3.3em;
         font-weight:lighter;
         color: white;
+        text-align:center;
         z-index: 5;
     }
 
     .beauty {
         position: absolute;
-        top: 13%;
+        top: 19%;
         left: 25%;
         height 20px;
         width: 600px;
@@ -140,6 +141,7 @@ p {
         font-size: 1.9em;
         font-weight:lighter;
         color: lightgrey;
+        text-align:center;
         z-index: 5;
     }
 
@@ -333,11 +335,11 @@ li {
 }
 
 .first {
-    position: relative;
+    position: absolute;
     background-color: white;
     float: left;
     left: ;
-    top: -41.25%;
+    top: 200px;
     width:100%;
     height: 1000px;
     z-index: 5;
@@ -523,20 +525,67 @@ li {
         margin-left:-100px;
         height: 100%;
     }
+    .huntington {
+    position: absolute;
+    height:250px;
+    width: 100%;
+    z-index: 6;
+    }
 
     .first {
+        display: grid;
         position: relative;
         background-color: white;
         float: left;
         left: ;
-        top: -45.25%;
+        top: -40.25%;
         width:100%;
         height: 700px;
         padding-bottom:30px;
-        z-index: 5;
+        z-index: 6;
+    }
+    
+    .viewall {
+        
+        
+        position: absolute;
+        top: 22%;
+        left: -0px;
+        height:;
+        width: 100%;
+        z-index: 7;
+    }
+
+    .viewalltxt {
+        background-color:;
+        background: rgb(204, 204, 204);
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        height 20px;
+        width: 100%;
+        font-family: "arial", sans-serif;
+        font-size: 1.9em;
+        text-align: center;
+        font-weight: 400;
+        color:white;
+        z-index: 15;
+    }
+
+    div.viewall p {
+        display: inline;
+        margin: 9%;
+        font-weight: bold;
+        text-align: center;
+        top:;
+        width:0;
+        height:0;
+        color: white;
+        z-index: 15;
     }
 
     .second {
+        display: grid;
         position: relative;
         float: left;
         left: 0;
@@ -551,6 +600,7 @@ li {
     }
 
     .secondbackgr {
+        display: grid;
         position: relative;
         background-color: rgb(201, 220, 207);
         background-color:;
@@ -566,11 +616,12 @@ li {
     }
 
     .thirdbackgr {
+        display: grid;
         position: relative;
         background-color:white;
         float: left;
         left: x;
-        top: -1440px;
+        top: ;
         width: 100%;
         height: 100%;
 
@@ -583,6 +634,7 @@ li {
     }
 
         .foot {
+        display: grid;
         position: absolute;
         top: 1900px;
         left: 0px;
@@ -593,11 +645,12 @@ li {
 
         .koi {
         position: absolute;
-        top:160px;
+        text-align:center;    
+        top:90%;
         left: 0px;
         width: 100%;
-        height: 100%;
-        z-index: 3;
+        height: 200px;
+        z-index: 5;
     }
 
     .koigrida {
@@ -605,10 +658,10 @@ li {
         background-repeat: repeat;
         background-color:;
         position: fixed;
-        top: 780px;
-        left: 250px;
+        top: ;
+        left: ;
 
-        z-index: 4;
+        z-index: 20;
     }
 
     .koigridb {
@@ -618,7 +671,7 @@ li {
         top: 780px;
         left: 500px;
 
-        z-index: 4;
+        z-index: 20;
     }
     .icons {
         font-family: "verdemoderna";
@@ -635,7 +688,7 @@ li {
         width: 100%;
         height: 130px;
         line-height: 65px;
-        top: 240px;
+        top: 109%;
         left: 0px;
         color: rgb(204, 211, 210);
 
@@ -655,8 +708,8 @@ li {
     .footblock {
         position: absolute;
         width: 100%;
-        height: 50%;
-        top: 420px;
+        height: 150px;
+        top: 150%;
 
         font-size: .5em;
         background-color: rgb(33, 66, 70);
@@ -667,9 +720,9 @@ li {
         position: absolute;
         width: 100%;
         height: 100px;
-        top: 480px;
+        top: 165%;
 
-        font-size: 3.0em;
+        font-size: 4.0em;
         letter-spacing: .6em;
         text-align: center;
         color: rgb(144, 161, 163);
@@ -683,6 +736,45 @@ li {
     /*    opacity:.40;*/
 
         }
+    
+        .enso {
+        position: absolute;
+        top: 3%;
+        left: 23%;
+        height 10%;
+        width: 10%;
+        opacity: 0.67;
+        filter: alpha(opacity=60);
+        z-index: 10;
+    }
+
+    h1 {
+        position: absolute;
+        text-align:center;
+        top: 5%;
+        left: 25%;
+        height 30px;
+        width: 50%;
+        font-size: 3.3em;
+        font-weight:lighter;
+        color: white;
+        z-index: 9;
+    }
+
+    .beauty {
+        position: absolute;
+        text-align:center;
+        top: 19%;
+        left: 25%;
+        height 20px;
+        width: 50%;
+        font-family: "Libre Baskerville", serif;
+        font-size: 1.9em;
+        font-weight:lighter;
+        color: white;
+        z-index: 15;
+    }
+
         .two {
             grid-area: right;
             display: grid;
@@ -699,7 +791,7 @@ li {
         } 
         .three {
             grid-area: left;
-            display: grid;
+            display: inline;
             background-color:;
         /*    opacity:.20;*/
         }
@@ -707,24 +799,41 @@ li {
 
 
         .asidelow {
-            display: grid;
+            display: inline;
             font-family:sans-serif;
         /*
             grid-template-rows: repeat(4, 100px);*/
-            grid-template-columns: auto auto;
-            grid-template-rows: repeat(7, 10px);
             text-align: left;
-            background-color:rgb(234,242,238);
-            top: -130px;
+            background:red;
+            top: 180px;
             left:;
             float: left;
             width:100%;
-            height: 400px;
+            height: ;
             font-size: 2.0em;
             text-decoration: none;
-            border-top: 50px;
-            border-left: 50px;
+            margin-top: 50px;
+            padding-left: 0%;
             z-index: 10;
+
+             
+
+        }
+        .asidetxt {
+
+            display:inline;
+            top:-490px;
+            left: 0px;
+            float: left;
+            width: 100%;
+            height: 350px;
+/*
+            column-count: 2;
+            grid-template-columns: 100%  100%;
+            grid-template-rows: repeat(7, 80px);
+*/
+            background:rgb(234,242,238);
+/*
             grid-template-areas:
                 "1 2"
                 "3 4"
@@ -732,90 +841,67 @@ li {
                 "7 8"
                 "9 10"
                 "11 12"
-                "13 ."; 
-        }
-        .asidetxt {
-
-            display:grid;
-            float: ;
-            top:0px;
-            width: 100%;
-            height: 300px;
-            background-color: aqua;
-            color: darkslategray;
-            list-style-type: none;
-            text-decoration: none;
-            line-height: 1.35em;
-            padding-top: ;
-            padding-left:;
+                "13 .";          
+*/
         }
 
 
 
         .item1 {
-            display: grid;
-            grid-area: 1;
-            width:100%;
+            display: inline;
+            width:50%;
         }
         .item2 {
-            display: grid;
-            grid-area: 2;
-            width:100%;
+            display: inline;
+            width:50%;
         }
         .item3 {
-            display: grid;
-            grid-area: 3;
-            width:100%;
+            display: inline;
+            width:50%;
         }
         .item4 {
-            display: grid;
-            grid-area: 4;
-            width:100%;
+            display: inline;
+            width:50%;
         }
         .item5 {
-            display: grid;
-            grid-area: 5;
-            width:100%;
+            display: inline;
+            width:50%;
         }
         .item6 {
-            display: grid;
-            grid-area: 6;
-            width:100%;
+            display: inline;
+            width:50%;
         }
         .item7 {
-            display: grid;
-            grid-area: 7;
-            width:100%;
+            display: inline;
+            width:50%;
         }
         .item8 {
-            display: grid;
-            grid-area: 8;
-            width:100%;
+            display: inline;
+            width:50%;
         }
         .item9 {
-            display: grid;
-            grid-area: 9;
-            width:100%;
+            display: inline;
+            width:50%;
         }
         .item10 {
-            display: grid;
-            grid-area: 10;
-            width:100%;
+            display: inline:
+            width:50%;
         }
         .item11 {
-            display: grid;
-            grid-area: 11;
-            width:100%;
+            display: inline;
+            width:50%;
         }
         .item12 {
-            display: grid;
-            grid-area: 12;
-            width:100%;
+            display: inline;
+            width:50%;
         }
         .item13 {
-            display: grid;
-            grid-area: 13;
-            width:100%;
+            display: inline;
+            width:50%;
+        }
+        .item14 {
+            display: inline;
+            width:50%;
         }
 
 
@@ -823,74 +909,89 @@ li {
 
 
         .asidetxt li {
-            display: grid;
+            display: inline;
+            float: left;
             border-bottom: 1px solid rgb(165, 184, 174);
+            top:200px;
             width: 50%;
             color: rgb(99, 115, 117);
             font-weight: 200;
             font-size: .8em;
+            margin-left:
+            
 
         }
 
         .asidetxt li i {
-            display: grid;
+            display: inline;
+            float: left;
             color: rgb(193, 205, 195);
         }
 
         .asidetext c {
-            display: grid;
+            display: inline;
+            float: left;
+            
             font-size: 0.5em;
             font-family: "Times New Roman", serif;
 
         }
 
         .asidelower {
-            display: grid;
-
+            display: inline;
+            float: left;
             background-color:rgb(180,210,193);
         /*    background-color:red;*/
 
             left: 00px;
-            top: -135px;
-            width: 100%;
+            top: 90px;
+            width: ;
             height: 200px;
+/*
             list-style-type: none;
             text-decoration: none;
+*/
             z-index: -2;
             border-top: 10px;
 
         }
 
         .asidelowertext {
-            display: grid;
-
+            display: inline;
+            float: left;
             background-color: rgb(181, 203, 188);
             color: rgb(96, 112, 114);
-            top: -400px;
+            top: -150px;
             left: 0px;
     /*        float: left;*/
-            width: 100%;
+            width: ;
             height: 0px;
             font-size: 1.3em;
             font-weight: 500;
             line-height: 3.5em;
             text-decoration: none;
-            border-left: 80px;
+            border-left: 0px;
             z-index: -2;
 
         }
 
         .asidelowertext li {
-            display: grid;
+            display: inline;
+            float: left;
             border-bottom: 1px solid rgb(165, 184, 174);
-            margin-left: 30px;
-            padding:0px;
-            width: 280px;
+            top:0px;
+            font-size:1.3em;
+            font-weight:300;
+            margin-left: 0px;
+            padding:px;
+            width:50%;
 
         }
 
         .asidelowertext li textx {
-            display: grid;
+            display: inline;
+            float: left;
+            
             border-top: 1px solid #000;
             width: ;
         }
@@ -900,3 +1001,95 @@ li {
         }
 
 }
+@media screen and (max-width: 40em) {
+    
+    
+
+          .one {
+                grid-area: top;
+                display: grid;
+                background-color:;
+            /*    opacity:.40;*/
+
+                }
+
+                .enso {
+                position: absolute;
+                text-align: center;
+                top: 3%;
+                left:50%;
+                height 10%;
+                width: 10%;
+                opacity: 0.67;
+                filter: alpha(opacity=60);
+                z-index: 10;
+            }
+
+            h1 {
+                position: absolute;
+                text-align:center;
+                top: 5%;
+                left: center;
+                height 30px;
+                width: 50%;
+                font-size: 3.3em;
+                font-weight:lighter;
+                color: white;
+                z-index: 9;
+            }
+
+            .beauty {
+                position: absolute;
+                text-align:center;
+                top: 19%;
+                left: 25%;
+                height 20px;
+                width: 50%;
+                font-family: "Libre Baskerville", serif;
+                font-size: 1.9em;
+                font-weight:lighter;
+                color: white;
+                z-index: 15;
+            }
+            .huntington {
+                position: absolute;
+                height:300px;
+                width: 100%;
+                z-index: 3;
+            }
+            .viewall {
+                background-color: #aaaaaa;
+                opacity: 0.27;
+                filter: alpha(opacity=60);
+                position: absolute;
+                top: 23%;
+                left: ;
+                height 88px;
+                width: 100%;
+                z-index: 5;
+                margin:20px 10px 20px 10px;
+            }
+
+            .viewalltxt {
+                background-color: white;
+                background: rgb(204, 204, 204);
+                position: absolute;
+                top: 10px;
+                left: 0%;
+                height 30px;
+                width: 100%;
+                font-family: arial, sans-serif;
+                font-size: 1.4em;
+                font-weight: 400;
+                color:red;
+                z-index: 5;
+            }
+
+            div.viewall p {
+                margin: 9%;
+                font-weight: bold;
+                color: white;
+                z-index: 5;
+            }
+}
+    

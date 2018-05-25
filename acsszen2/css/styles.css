@@ -66,7 +66,7 @@ p {
 
 .huntington {
     position: absolute;
-    height:250px;
+    height:300px;
     width: 100%;
     z-index: 3;
 }
@@ -109,8 +109,8 @@ p {
 
     .enso {
         position: absolute;
-        top: 2%;
-        left: 5%;
+        top: 5%;
+        left: 15%;
         height 125px;
         width: 125px;
         opacity: 0.67;
@@ -120,12 +120,12 @@ p {
 
     h1 {
         position: absolute;
-        top: 1%;
+        top: 4%;
         left: 25%;
         height 30px;
         width: 600px;
         font-size: 3.3em;
-        font-weight:lighter;
+        font-weight:100;
         color: white;
         text-align:center;
         z-index: 5;
@@ -133,7 +133,7 @@ p {
 
     .beauty {
         position: absolute;
-        top: 19%;
+        top: 13%;
         left: 25%;
         height 20px;
         width: 600px;
@@ -145,23 +145,15 @@ p {
         z-index: 5;
     }
 
-    .viewall {
+    
+    .viewalltxt {
         background-color: #aaaaaa;
         opacity: 0.27;
         filter: alpha(opacity=60);
-        position: absolute;
-        top: 7%;
-        left: 60%;
-        height 88px;
-        width: 250px;
-        z-index: 5;
-    }
-
-    .viewalltxt {
-        background-color: white;
+        
         background: rgb(204, 204, 204);
         position: absolute;
-        top: 22%;
+        top: 8%;
         left: 70%;
         height 140px;
         width: 270px;
@@ -172,7 +164,7 @@ p {
         z-index: 5;
     }
 
-    div.viewall p {
+    div.viewalltxt p {
         margin: 9%;
         font-weight: bold;
         color: white;
@@ -185,7 +177,7 @@ p {
         left: 00px;
         float: right;
         width: 100%;
-        height: 250px;
+        height: 330px;
         opacity: 0.15;
         background-color: #1a1f2a;
         text-decoration: none;
@@ -509,6 +501,7 @@ li {
 @media screen and (max-width: 70em) {
     .main {
         display: grid;
+        height:4000px;
         font-size: .7em;
          grid-template-rows: auto;
     grid-template-columns:100%;
@@ -534,82 +527,76 @@ li {
 
     .first {
         display: grid;
-        position: relative;
-        background-color: white;
+        grid-area:top;
+        
+        background-color: lime;
         float: left;
         left: ;
-        top: -40.25%;
+        top:-1435px ;
         width:100%;
-        height: 700px;
+        height: 800px;
         padding-bottom:30px;
         z-index: 6;
     }
     
-    .viewall {
-        
-        
-        position: absolute;
-        top: 22%;
-        left: -0px;
-        height:;
-        width: 100%;
-        z-index: 7;
-    }
+   
 
     .viewalltxt {
-        background-color:;
-        background: rgb(204, 204, 204);
+        
+/*        background: rgb(204, 204, 204);*/
         position: absolute;
-        top: 100%;
+/*        background-color: #aaaaaa;*/
+        background-color:red;
+        opacity: 0.27;
+        filter: alpha(opacity=60);
+        top:13%;
         left: 0px;
-        height 20px;
+        height:70px ;
         width: 100%;
         font-family: "arial", sans-serif;
         font-size: 1.9em;
         text-align: center;
         font-weight: 400;
-        color:;
+        color:plum;
         z-index: 15;
+        padding-top:;
+        padding-bottom: px;
+    }
+    .viewalltxt p {
+        color:red;
+        top:8%;
+        width:100%;
     }
 
-    div.viewall p {
-        display: inline;
-        margin: 9%;
-        font-weight: bold;
-        text-align: center;
-        top:;
-        width:0;
-        height:0;
-        color: red;
-        z-index: 15;
-    }
+   
 
     .second {
         display: grid;
-        position: relative;
+        grid-area:left;
         float: left;
         left: 0;
-        top: -1025px;
+        top: 125px;
         background-color: rgb(201, 220, 207);
 
         width: 100%;
         height: 1000px;
         letter-spacing: 0.29px;
          line-height: 3em;
-        z-index: ;
+        z-index: 1;
     }
 
     .secondbackgr {
         display: grid;
-        position: relative;
+       
+        grid-area:left;
         background-color: rgb(201, 220, 207);
         background-color:;
         float: left;
         left: 0;
-        top: ;
+        top: -750px;
         width: 100%;
         height: 100%;
-        padding-top:30px;
+        padding-top:0px;
         margin-bottom: 75px;
         margin-top: 25;
         z-index: 1;
@@ -617,11 +604,11 @@ li {
 
     .thirdbackgr {
         display: grid;
-        position: relative;
-        background-color:white;
+        grid-area:left;
+        background-color:gold;
         float: left;
         left: x;
-        top: ;
+        top:-700px ;
         width: 100%;
         height: 100%;
 
@@ -635,8 +622,9 @@ li {
 
         .foot {
         display: grid;
+        grid-area:footer;
         position: absolute;
-        top: 1900px;
+        top: 2275px;
         left: 0px;
         width: 100%;
         height: 320px;
@@ -751,7 +739,7 @@ li {
     h1 {
         position: absolute;
         text-align:center;
-        top: 5%;
+        top: 4%;
         left: 25%;
         height 30px;
         width: 50%;
@@ -764,7 +752,7 @@ li {
     .beauty {
         position: absolute;
         text-align:center;
-        top: 19%;
+        top: 8%;
         left: 25%;
         height 20px;
         width: 50%;
@@ -822,7 +810,7 @@ li {
         .asidetxt {
 
             display:inline;
-            top:-490px;
+            top:-750px;
             left: 0px;
             float: left;
             width: 100%;
@@ -944,7 +932,7 @@ li {
         /*    background-color:red;*/
 
             left: 00px;
-            top: 90px;
+            top: -240px;
             width: ;
             height: 200px;
 /*
@@ -961,7 +949,7 @@ li {
             float: left;
             background-color: rgb(181, 203, 188);
             color: rgb(96, 112, 114);
-            top: -150px;
+            top: -620px;
             left: 0px;
     /*        float: left;*/
             width: ;
@@ -1056,18 +1044,6 @@ li {
                 height:300px;
                 width: 100%;
                 z-index: 3;
-            }
-            .viewall {
-                background-color: #aaaaaa;
-                opacity: 0.27;
-                filter: alpha(opacity=60);
-                position: absolute;
-                top: 27%;
-                left: ;
-                height 88px;
-                width: 100%;
-                z-index: 5;
-                margin:20px 10px 20px 10px;
             }
 
             .viewalltxt {
