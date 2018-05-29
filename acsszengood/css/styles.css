@@ -1050,19 +1050,8 @@ li {
 
 }
 @media screen and (max-width: 40em) {
-          .main {
-                display: grid;
-                height:4000px;
-                font-size: 0.8em;
-                grid-template-rows: auto;
-                grid-template-columns:100%;
-
-                grid-template-areas:
-                    "top" 
-                    "left"
-                    "footer"
-                    "right";
-          }
+    
+    
 
           .one {
                 grid-area: top;
@@ -1073,7 +1062,7 @@ li {
 
                 }
 
-          .enso {
+                .enso {
                 position: absolute;
                 text-align: center;
                 top: 3%;
@@ -1141,104 +1130,6 @@ li {
                 left:80px;
                 text-align:center;
                 z-index: 5;
-            }
-             .foot {
-                display: grid;
-                grid-area:footer;
-                position: absolute;
-                bottom: ;
-                left: 0px;
-                width: 100%;
-                height: 320px;
-                z-index: ;
-            }
-
-                .koi {
-                position: absolute;
-                text-align:center;    
-                top:-121%;
-                left: 0px;
-                width: 100%;
-                height: 200px;
-                z-index: 15;
-            }
-
-            .koigrida {
-                background-image: url(images/gridlines1.png);
-                background-repeat: repeat;
-                background-color:;
-                position: fixed;
-                top: ;
-                left: ;
-
-                z-index: 20;
-            }
-
-            .koigridb {
-                background-image: url(images/gridlines1.png);
-                background-repeat: repeat;
-                position: fixed;
-                top: 780px;
-                left: 500px;
-
-                z-index: 20;
-            }
-            .icons {
-                font-family: "verdemoderna";
-            }
-            @font-face {
-              font-family: 'verdemoderna';
-              src: url('verdemoderna.woff'); /* IE9 Compat Modes */
-
-            }
-
-
-            .foottext {
-                position: absolute;
-                width: 100%;
-                height: 110px;
-                line-height: 65px;
-                top:-100%;
-                left: 0px;
-                color: rgb(204, 211, 210);
-
-                font-size: 2.4em;
-                font-weight: 500;
-                font-family: "Times New Roman", serif;
-                text-align: center;
-                z-index: 20;
-
-            }
-
-            .foottext i{
-                color: rgb(144, 162, 158);
-                font-size: .9em;
-                line-height:.2em;
-                
-            }
-
-            .footblock {
-                position: absolute;
-                width: 100%;
-                height: 150px;
-                top: -61%;
-
-                font-size: .5em;
-                background-color: rgb(33, 66, 70);
-                z-index: 20;
-            }
-
-            .footlogo {
-                position: absolute;
-                width: 100%;
-                height: 100px;
-                top: -50%;
-
-                font-size: 4.0em;
-                letter-spacing: .6em;
-                text-align: center;
-                color: rgb(144, 161, 163);
-                z-index: 20;
             }
 }
     
